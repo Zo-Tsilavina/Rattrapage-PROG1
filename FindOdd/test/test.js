@@ -8,7 +8,7 @@ describe('findOddRed', () => {
     });
 
     it('works for single-element arrays', () => {
-        expect(findOddRed([])).to.equal(0);
+        expect(findOddRed([0])).to.equal(0);
     });
 
     it('returns the lone odd-occurrence number for a short array', () => {
